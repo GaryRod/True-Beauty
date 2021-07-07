@@ -5,13 +5,13 @@
 }
 
 body {
-    
     width: 100%;
     height: 100vh;
+    background-color: black;
 }
 
 .header {
-    width: 50%;
+    width: 600px;
     height: 35%;
     margin: 0 auto;
     border: solid 2px;
@@ -20,6 +20,7 @@ body {
 
 p {
     font-family: 'Otomanopee One', sans-serif;
+    font-size: 12px;
 }
 .cont-uno {
     display: flex;  
@@ -47,12 +48,12 @@ p {
 }
 .cont-tres__span {
     display: flex;
+    justify-content: center;
 }
 
 .cont-tres__p {
-    margin: 10px;
+    margin: 1%;
     text-align: center;
-    min-width: 10px;
 }
 
 .cont-tres__p:hover {
@@ -76,9 +77,28 @@ p {
     cursor: pointer;
 }
 
+.cont-row {
+    width: 80%;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cont-row .cont-column img {
+    width: 100%;
+    padding: 10px;
+}
 
 @media screen and (max-width: 800px) {
     .header {
         width: 100%;
+        height: 25%;
+    }
+    
+    .cont-cuatro {
+        margin: 20px;
+    }
+    .cont-cuatro__btn {
+        width: 100px;
     }
 }
