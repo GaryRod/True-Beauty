@@ -101,4 +101,8 @@ p {
     .cont-cuatro__btn {
         width: 100px;
     }
+
+    .cont-row {
+        width: 100%;
+    }
 }
