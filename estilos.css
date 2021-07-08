@@ -69,7 +69,20 @@ p {
     height: 25px;
     border-radius: 7px;
     border: solid 2px rgb(235, 151, 200);
-    color: #fff
+    color: #fff;
+    text-align: center;
+}
+
+input {
+    display: none;
+}
+
+.cont-cuatro__btn::after {
+    content: 'Seguir';
+}
+
+input:checked + .cont-cuatro__btn::after {
+    content: 'Siguiendo';
 }
 
 .cont-cuatro__btn:hover {
