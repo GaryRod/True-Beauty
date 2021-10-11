@@ -12,7 +12,6 @@ body {
 
 .header {
     width: 600px;
-    height: 190px;
     margin: 0 auto;
     border: solid 2px;
     background-color: rgb(250, 236, 226);
@@ -21,7 +20,9 @@ body {
 p {
     font-family: 'Otomanopee One', sans-serif;
     font-size: 12px;
+    margin-bottom: 10px;
 }
+
 .cont-uno {
     display: flex;  
 }
@@ -54,10 +55,6 @@ p {
 .cont-tres__p {
     margin: 1%;
     text-align: center;
-}
-
-.cont-tres__p:hover {
-    cursor: pointer;
 }
 
 .cont-cuatro {
@@ -99,13 +96,12 @@ input:checked + .cont-cuatro__btn::after {
 
 .cont-row .cont-column img {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 
 @media screen and (max-width: 800px) {
     .header {
         width: 100%;
-        height: 25%;
     }
     
     .cont-cuatro {
